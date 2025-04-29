@@ -1,0 +1,3 @@
+Promt utilizado para la información de la página
+
+'Necesito que me digas la historia de south park, desde su creación, sus conflictos y su actualidad. La información que me darás tiene que ser como mínimo dos carillas de word (sin las imágenes ni el menú)'
