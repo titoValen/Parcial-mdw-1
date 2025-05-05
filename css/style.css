@@ -6,6 +6,28 @@ body {
   background-position: center;
 }
 
+/* Botón para subir */
+
+#subir {
+  position: fixed;
+  right: 208px;
+  bottom: 48px;
+  background: #926a57;
+  padding: 8px;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  transition: all .3s;
+}
+
+#subir img {
+  max-width: 100%;
+}
+
+#subir:active {
+  transform: scale(1.1);
+}
+
 /* Header */
 
 #encabezado {
