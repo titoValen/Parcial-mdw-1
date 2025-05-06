@@ -20,10 +20,6 @@ body {
   transition: all .3s;
 }
 
-#subir img {
-  max-width: 100%;
-}
-
 #subir:active {
   transform: scale(1.1);
 }
@@ -34,6 +30,11 @@ body {
   display: block;
   text-align: center;
   margin-top: 16px;
+}
+
+#encabezado img {
+  width: 150px;
+  height: 150px;
 }
 
 /* Nav */
@@ -81,6 +82,10 @@ body {
   padding: 16px;
 }
 
+#contenido section {
+  margin: 40px 0;
+}
+
 #contenido section h2 {
   font-size: 1.5rem;
 }
@@ -99,12 +104,13 @@ body {
 #origen .container-img,
 #expansion .container-img {
   margin-top: 24px;
-  text-align: center;
 }
 
 #controversias .container-img img,
 #origen .container-img img,
 #expansion .container-img img {
+  width: 350px;
+  height: 200px;
   transition: .5s;
 }
 
@@ -113,6 +119,21 @@ body {
   transform: scale(1.05);
 }
 
+#controversias .especial,
+#origen .especial,
+#expansion .especial,
+#controversias .container-img,
+#origen .container-img,
+#expansion .container-img {
+  display: inline-block;
+}
+
+#controversias .especial,
+#origen .especial,
+#expansion .especial {
+  width: 48%;
+  margin-right: 2rem;
+}
 /* Footer */
 
 #piePagina {
@@ -143,5 +164,7 @@ body {
 }
 
 #piePagina figure img {
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 }
